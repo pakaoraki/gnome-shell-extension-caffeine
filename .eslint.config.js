@@ -1,13 +1,14 @@
 // eslint.config.js
-import gjsConfig from './lint/eslintrc-gjs.config.js';
-import shellConfig from './lint/eslintrc-shell.config.js';
 
-module.exports = {
+import gjsConfig from "./lint/eslintrc-gjs.config.js";
+import shellConfig from "./lint/eslintrc-shell.config.js";
+
+export default [
   gjsConfig,
   shellConfig,
   {
     parserOptions: {
-    sourceType: 'module',
+      sourceType: 'module',
     },
     rules: {
       // Rules overridden to match this codebase
@@ -17,4 +18,4 @@ module.exports = {
       'prefer-template': 'off',
     },
   }
-};
+];

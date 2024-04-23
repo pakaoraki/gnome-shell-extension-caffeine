@@ -1,5 +1,5 @@
 // eslint-shell.config.js
-module.exports = {
+export default [
   rules: {
     camelcase: ['error', { properties: 'never', allow: ['^vfunc_', '^on_'] }],
     'object-curly-spacing': ['error', 'always'],
@@ -8,4 +8,4 @@ module.exports = {
   globals: {
     global: 'readonly',
   },
-};
+];
