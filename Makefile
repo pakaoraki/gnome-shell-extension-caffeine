@@ -24,7 +24,7 @@ translations:
 	@./update-locale.sh
 
 lint:
-	eslint -c .eslintrc.yml $(EXTENSION_DIR)
+	eslint -c .eslint.config.js $(EXTENSION_DIR)
 
 lint-fix:
-	eslint -c .eslintrc.yml --fix $(EXTENSION_DIR)
+	eslint -c .eslint.config.js --fix $(EXTENSION_DIR)
