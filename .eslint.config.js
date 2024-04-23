@@ -1,8 +1,8 @@
 // eslint.config.js
 module.exports = {
   extends: [
-    './lint/eslintrc-gjs.yml',
-    './lint/eslintrc-shell.yml',
+    './lint/eslintrc-gjs.config.js',
+    './lint/eslintrc-shell.config.js',
   ],
   parserOptions: {
     sourceType: 'module',
