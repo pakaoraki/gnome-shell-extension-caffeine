@@ -14,7 +14,7 @@ jobs:
       with:
         packages: make npm
         version: 1.0
-    - name: Install eslint
+    - name: Install eslint@8.57.0
       run: |
         npm install -g eslint eslint-plugin-jsdoc
 
